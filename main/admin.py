@@ -1,8 +1,5 @@
 from django.contrib import admin
 from .models import Tutorial
-from django.db import models
-from tinymce.widgets import TinyMCE
-
 
 class TutorialAdmin(admin.ModelAdmin):
     """
